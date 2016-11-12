@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM node
 
-RUN mkdir -p /app
-WORKDIR /app
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
