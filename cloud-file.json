@@ -1,14 +1,12 @@
 {
-  "services": [
-    {
-      "name": "app",
-      "image": "",
-      "target_num_containers": 1,
-      "sequential_deployment": true,
-      "autorestart": "ALWAYS",
-      "autoredeploy": true,
-      "container_envvars": null
-    }
-  ],
-  "name": "RuairiSpainvscode-test"
+    "services": [{
+        "name": "app",
+        "image": "",
+        "target_num_containers": 1,
+        "sequential_deployment": true,
+        "autorestart": "ALWAYS",
+        "autoredeploy": true,
+        "container_envvars": null
+    }],
+    "name": "RuairiSpainvscode-test"
 }
